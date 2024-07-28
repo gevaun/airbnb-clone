@@ -15,7 +15,7 @@ export default function Card(props) {
             </div>
             <div>
                 <div className="flex pt-2 pb-2 space-x-1">
-                    <img src="/images/star.png" className="" />
+                    <img src="/star.png" className="" />
                     <span className="opacity-70">{props.item.stats.rating}</span>
                     <span className="opacity-70">({props.item.stats.reviewCount}) • </span>
                     <span className="opacity-70">{props.item.location}</span>
